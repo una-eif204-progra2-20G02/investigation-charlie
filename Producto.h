@@ -6,7 +6,9 @@ class Producto{
 private:
 std::string name;
 public:
-virtual std:string toString();
+Producto(std::string n);
+std::string getName();
+virtual std::string toString();
 
 
 };
