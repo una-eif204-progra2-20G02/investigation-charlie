@@ -12,6 +12,7 @@ De acuerdo con lo que establece García F, Marques J (S.F) se define el concepto
 
 El principio de Liskov es el tercer principio del que nos habla SOLID (establece los cinco principios básicos de la programación orientada a objetos); fue creado por Bárbara Liskov y expuesto en 1987, tiempo después junto con la ayuda de Jeanette Wing se le terminó de dar forma hasta convertirlo en lo que conocemos hoy en día.
 
+![](diagrama/Producto.png)
 
 # Conclusiones:
 Para finiquitar se nos permite concluir que el principio estudiado se encuentra íntimamente relacionado con el paradigma de abierto/cerrado, dejando en claro la importancia fundamental de realizar buenas abstracciones que sirvan de base para las jerarquías de herencia. Por otra parte, la indagación realizada, nos permite obtener un código menos frágil. 
