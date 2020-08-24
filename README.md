@@ -2,4 +2,5 @@
 
 # Introduccion:
 
+En el presente trabajo pretende mostrar el tercer principio básico para la programación orientada a objetos: 
 El principio de sustitución de Liskov. Dicho paradigma narra la importancia de una buena abstracción al momento de crear una herencia y como se puede aplicar el polimorfismo adecuadamente. 
