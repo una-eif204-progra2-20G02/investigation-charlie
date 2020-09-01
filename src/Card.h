@@ -11,10 +11,11 @@ class Card {
 private:
     std::string name;
     double codeID;
-    virtual std::string cardEffect();
+   
 public:
     Card();
     Card(std::string, double);
+    virtual std::string cardEffect();
     ~Card();
     virtual std::string toString();
 };
