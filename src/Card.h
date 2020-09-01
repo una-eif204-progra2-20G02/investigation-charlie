@@ -18,6 +18,7 @@ public:
     virtual std::string cardEffect();
     ~Card();
     virtual std::string toString();
+    int testing();
 };
 
 #endif //INVESTIGATION_CHARLIE_CARD_H
