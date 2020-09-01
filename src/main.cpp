@@ -3,7 +3,7 @@
 
 
 
-    // buen ejemplo de Lizcov
+    // buen ejemplo de Liskov
 struct Animal{
     Animal(){}
     virtual std::string hablar(){   //cualquier animal que se implemente debe ser capaz de hablar
