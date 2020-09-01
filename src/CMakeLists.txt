@@ -1,4 +1,4 @@
-set(BINARY ${CMAKE_investigation-charlie})
+set(BINARY ${CMAKE_PROJECT_NAME})
 
 # add_executable(ExampleProject main.cpp file1.cpp file1.h)
 file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.h *.cpp) #simplification

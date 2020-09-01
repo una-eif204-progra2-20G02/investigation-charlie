@@ -1,12 +1,11 @@
-cmake_minimum_required(VERSION 3.17)
-project(investigation-charlie)
+set(BINARY ${CMAKE_PROJECT_NAME}_tst)
 
-set(CMAKE_CXX_STANDARD 14)
+file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false *.h *.cpp)
 
-include_directories(src)
+set(SOURCES ${TEST_SOURCES})
 
-add_subdirectory(src)
-add_subdirectory(tst)
+add_executable(${BINARY} ${TEST_SOURCES} )
 
-## Use next line if you are going to use Google Test
-# add_subdirectory(lib/googletest)
+add_test(NAME ${BINARY} COMMAND ${BINARY})
+
+target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_lib gtest)

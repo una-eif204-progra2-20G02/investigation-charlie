@@ -14,7 +14,7 @@ public:
     MonsterCard();
     MonsterCard(std::string, double);
     ~MonsterCard();
-    std::string toString();
+    std::string toString() override;
 };
 
 #endif //INVESTIGATION_CHARLIE_MONSTERCARD_H

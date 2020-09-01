@@ -14,6 +14,6 @@ public:
     MagicCard();
     MagicCard(std::string, double);
     ~MagicCard();
-    std::string toString();
+    std::string toString() override;
 };
 #endif //INVESTIGATION_CHARLIE_MAGICCARD_H
