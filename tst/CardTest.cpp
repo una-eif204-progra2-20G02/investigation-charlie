@@ -4,11 +4,12 @@
 #include "gtest/gtest.h"
 #include "../src/Card.h"
 #include "../src/MagicCard.h"
+#include "../src/MonsterCard.h"
 
 TEST(CardTestSuite, cardEffect){
+MagicCard card;
 
-
-    EXPECT_EQ()
+    EXPECT_EQ(card.toString(), "special effect");
 
 
 }
