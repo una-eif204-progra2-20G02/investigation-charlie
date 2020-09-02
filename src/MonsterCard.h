@@ -1,20 +1,16 @@
-//
-// Created by chris on 9/1/2020.
-//
-
 #ifndef INVESTIGATION_CHARLIE_MONSTERCARD_H
 #define INVESTIGATION_CHARLIE_MONSTERCARD_H
 #include "Card.h"
 
-class MonsterCard: Card {
+class MonsterCard: public Card {
 private:
     double attackPoints;
     std::string cardEffect() override;
 public:
     MonsterCard();
-    MonsterCard(std::string, double);
+    MonsterCard(std::string, double, double);
     ~MonsterCard();
-    std::string toString() override;
+
 };
 
 #endif //INVESTIGATION_CHARLIE_MONSTERCARD_H

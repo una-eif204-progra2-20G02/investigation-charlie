@@ -4,9 +4,9 @@
 
 #include"Card.h"
 
-std::string Card::cardEffect(){return "game rules";}
+std::string Card::cardEffect(){return "Card Effect";}
+
 Card::Card(){}
 Card::Card(std::string, double){}
 Card::~Card(){}
-std::string Card::toString(){ return "Test";}//cardEffect();}
-int Card::testing(){return 2;}
+std::string Card::showEffect(){ return Card::cardEffect();}

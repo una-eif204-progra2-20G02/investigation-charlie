@@ -1,8 +1,8 @@
 #include <iostream>
-
-
-
-
+#include "MonsterCard.h"
+#include "MagicCard.h"
+#include "Deck.h"
+/*
     // buen ejemplo de Liskov
 struct Animal{
     Animal(){}
@@ -24,7 +24,7 @@ struct Gato: Animal{
     return "miau";
 }
 };
-
+*/
 
 /*
     //Mal ejemplo de Lizcov
@@ -59,7 +59,7 @@ std::string hablar(Animal* ani){ // expandir el codigo con mas animales requiere
 
 */
 int main(){
-
+/*
     Perro* firulais = new Perro();
     Gato* charlie= new Gato();
 
@@ -75,8 +75,8 @@ int main(){
     std::cout<< "Charlie dice: "<< charlie->hablar() << std::endl << std::endl;
     Animal* maikol= new Animal(); // y el metodo funciona incluso con un metodo de la clase base Animal
     std::cout<< "y Maikol dice: "<< maikol->hablar() << std::endl << std::endl;
+*/
 
-
-
-
+MonsterCard card;// = new Card();
+std::cout << card.showEffect();
 }

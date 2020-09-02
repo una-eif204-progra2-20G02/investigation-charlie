@@ -6,14 +6,14 @@
 #define INVESTIGATION_CHARLIE_MAGICCARD_H
 #include "Card.h"
 
-class MagicCard: Card {
+class MagicCard : public Card {
 private:
-    double attackPoints;
+    std::string specialEffect;
     std::string cardEffect() override;
 public:
     MagicCard();
-    MagicCard(std::string, double);
+    MagicCard(std::string, double, std::string);
     ~MagicCard();
-    std::string toString() override;
+
 };
 #endif //INVESTIGATION_CHARLIE_MAGICCARD_H

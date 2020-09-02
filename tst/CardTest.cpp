@@ -3,11 +3,9 @@
 //
 #include "gtest/gtest.h"
 #include "../src/Card.h"
-//#include "../src/MagicCard.h"
-//#include "../src/MonsterCard.h"
 
 TEST(CardTestSuite, cardEffect){
-    Card* card = new Card();
+    Card card;
 
-    ASSERT_EQ(card->testing(), 2);
+    ASSERT_EQ(card.showEffect(), 2);
 }

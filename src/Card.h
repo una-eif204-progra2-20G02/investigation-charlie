@@ -11,14 +11,13 @@ class Card {
 private:
     std::string name;
     double codeID;
-   
+
 public:
     Card();
-    Card(std::string, double);
     virtual std::string cardEffect();
+    Card(std::string, double);
     ~Card();
-    virtual std::string toString();
-    int testing();
+    virtual std::string showEffect();
 };
 
 #endif //INVESTIGATION_CHARLIE_CARD_H
