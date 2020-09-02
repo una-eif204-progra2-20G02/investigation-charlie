@@ -59,6 +59,16 @@ std::string hablar(Animal* ani){ // expandir el codigo con mas animales requiere
 
 */
 int main(){
+
+    MonsterCard card;// = new Card();
+    std::cout << card.cardEffect();
+
+    return 0;
+
+
+
+
+
 /*
     Perro* firulais = new Perro();
     Gato* charlie= new Gato();
@@ -77,8 +87,6 @@ int main(){
     std::cout<< "y Maikol dice: "<< maikol->hablar() << std::endl << std::endl;
 */
 
-MonsterCard card;// = new Card();
-std::cout << card.cardEffect();
 
 
 
