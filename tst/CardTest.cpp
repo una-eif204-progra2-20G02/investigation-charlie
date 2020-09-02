@@ -1,13 +1,10 @@
-//
-// Created by chris on 9/1/2020.
-//
+
+
+#include<Card.h>
 #include "gtest/gtest.h"
-#include "../src/Card.h"
-//#include "../src/MagicCard.h"
-//#include "../src/MonsterCard.h"
 
 TEST(CardTestSuite, cardEffect){
     Card* card = new Card();
 
-    EXPECT_EQ(card->testing(), 2);
+    EXPECT_EQ(card->toString(), "");
 }

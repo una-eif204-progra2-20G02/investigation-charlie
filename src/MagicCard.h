@@ -1,6 +1,4 @@
-//
-// Created by chris on 9/1/2020.
-//
+
 
 #ifndef INVESTIGATION_CHARLIE_MAGICCARD_H
 #define INVESTIGATION_CHARLIE_MAGICCARD_H
