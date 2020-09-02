@@ -1,11 +1,10 @@
-//
-// Created by chris on 9/1/2020.
-//
+
+
+#include<Card.h>
 #include "gtest/gtest.h"
-#include "../src/Card.h"
 
 TEST(CardTestSuite, cardEffect){
-    Card card;
+    Card* card = new Card();
 
-    ASSERT_EQ(card.showEffect(), 2);
+    EXPECT_EQ(card->toString(), "");
 }
