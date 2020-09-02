@@ -4,7 +4,7 @@
 #include "gtest/gtest.h"
 
 TEST(CardTestSuite, cardEffect){
-    Card* card = new Card();
+    Card* card;
 
-    EXPECT_EQ(card->toString(), "");
+    EXPECT_EQ(card->cardEffect(), "Card Effect");
 }

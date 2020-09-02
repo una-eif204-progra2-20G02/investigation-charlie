@@ -8,10 +8,8 @@ class Card {
 private:
     std::string name;
     double codeID;
-
-public:
     virtual std::string cardEffect();
-
+public:
     Card();
     Card(std::string, double);
     ~Card();

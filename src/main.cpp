@@ -77,6 +77,9 @@ int main(){
     std::cout<< "y Maikol dice: "<< maikol->hablar() << std::endl << std::endl;
 */
 
-MagicCard card;// = new Card();
+MonsterCard card;// = new Card();
 std::cout << card.cardEffect();
+
+
+
 }
