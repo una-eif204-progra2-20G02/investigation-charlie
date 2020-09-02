@@ -5,7 +5,7 @@
 
 
 TEST(MagicCardTestSuite,showEffect){
-    MagicCard* card;
+    MagicCard* card= new MagicCard();
 
-    EXPECT_EQ(card->showEffect(), "Card Effect");
+    EXPECT_EQ(card->showEffect(), "special effect");
 }

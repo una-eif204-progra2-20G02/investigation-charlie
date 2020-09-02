@@ -4,9 +4,9 @@
 #include "gtest/gtest.h"
 
 
-TEST(MonsterCardSuite, showEffect){
+TEST(MonsterCardSuite, cardEffect){
 
-    MonsterCard* card;
+    MonsterCard* card= new MonsterCard();
 
     EXPECT_EQ(card->cardEffect(),"deal damage");
 }
