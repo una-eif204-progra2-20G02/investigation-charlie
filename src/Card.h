@@ -10,8 +10,9 @@ private:
     double codeID;
 
 public:
-    Card();
     virtual std::string cardEffect();
+
+    Card();
     Card(std::string, double);
     ~Card();
     virtual std::string showEffect();

@@ -4,15 +4,15 @@
 #define INVESTIGATION_CHARLIE_MONSTERCARD_H
 #include "Card.h"
 
-class MonsterCard: Card {
+class MonsterCard: private Card {
 private:
     double attackPoints;
-    std::string cardEffect() override;
 public:
+    std::string cardEffect() override;
     MonsterCard();
-    MonsterCard(std::string, double);
+    MonsterCard(std::string, double, double);
     ~MonsterCard();
-    std::string toString() override;
+    std::string showEffect() override;
 };
 
 #endif //INVESTIGATION_CHARLIE_MONSTERCARD_H
