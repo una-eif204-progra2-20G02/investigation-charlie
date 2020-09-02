@@ -9,5 +9,5 @@
 TEST(CardTestSuite, cardEffect){
     Card* card = new Card();
 
-    ASSERT_EQ(card->testing(), 2);
+    EXPECT_EQ(card->testing(), 2);
 }
