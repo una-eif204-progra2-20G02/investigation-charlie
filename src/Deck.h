@@ -1,21 +1,26 @@
+#ifndef _DECK_H
+#define _DECK_H
 
-#ifndef INVESTIGATION_CHARLIE_DECK_H
-#define INVESTIGATION_CHARLIE_DECK_H
 
-#include <sstream>
-#include <vector>
-#include "Card.h"
+class Card;
 
 class Deck {
-private:
+  private:
     std::string owner;
-    std::string name;
-    std::vector<Card*> cardList;
-public:
-    Deck();
-    Deck(std::string, std::string, std::vector<Card*>);
-    ~Deck();
-    std::string toString();
-};
 
-#endif //INVESTIGATION_CHARLIE_DECK_H
+    std::string name;
+
+    std::vector<Card*> cardList;
+
+
+  public:
+    Deck();
+
+    Deck(std::string , std::string , std::vector<Card*> );
+
+    ~Deck();
+
+    std::string toString();
+
+};
+#endif
