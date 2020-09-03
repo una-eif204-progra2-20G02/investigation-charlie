@@ -20,7 +20,7 @@ De igual forma se logra concluir que las abstracciones de nuestro programa son c
 
 # UML Ejemplo
 
-![](UML- Investigacion.PNG)
+![](UML- Investigacion.JPG)
 
 
 # Referencias:
