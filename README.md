@@ -18,6 +18,10 @@ Para finiquitar se nos permite concluir que el principio estudiado se encuentra 
 
 De igual forma se logra concluir que las abstracciones de nuestro programa son correctas, permitiéndonos así desarrollar una mayor cautela a la hora de extender clases, proyectando a la vez una cantidad más baja de errores relacionados con la herencia de clases, logrando a la vez un uso correcto del polimorfismo en tiempo de ejecución, dando a entender que dicho principio está relacionado con conceptos como la cohesión o acoplamiento entre clases (No hables con extraños). 
 
+# UML Ejemplo
+
+![](UML- Investigacion.PNG)
+
 
 # Referencias:
 
