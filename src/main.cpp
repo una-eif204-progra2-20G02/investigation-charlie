@@ -9,9 +9,7 @@ struct Animal{
     virtual std::string hablar(){   //cualquier animal que se implemente debe ser capaz de hablar
         return " hola ";
     }
-
 };
-
 struct Perro: Animal{
     Perro(){}
     std::string hablar() override{ // el perro sobreescribe el metodo para poder ladrar
@@ -31,8 +29,8 @@ struct Gato: Animal{
     //Mal ejemplo de Lizcov
 struct Animal{
     Animal(){}
-    virtual void comer(){
-
+    virtual std::string PerroCome(){
+    return "El perro come";
     }
     std::string hablar(Animal* ani){ // expandir el codigo con mas animales requiere expandir este metodo
     if (Perro* per = dynamic_cast<Perro*>(ani)) {
@@ -43,19 +41,21 @@ struct Animal{
     }
 }// (sin polimorfismo no puedo usar 'dynamic_cast' en el metodo hablar)
 };
-
 struct Perro: Animal{
     Perro(){}
     std::string ladrar(){ // solo los perros ladran
         return "woof";
     }
+    virtual std::string PerroCome(){
+    return "El perro come";
+    }
 };
-
 struct Gato: Animal{
     Gato(){}
     std::string maullar(){ // solo los gatos maullan
         return "miau";
     }
+    virtual std::string PerroCome(){}
 };
 
 
