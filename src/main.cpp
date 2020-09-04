@@ -72,30 +72,4 @@ int main(){
     std::cout<<card1.showEffect();
 
     return 0;
-
-
-
-
-
-/*
-    Perro* firulais = new Perro();
-    Gato* charlie= new Gato();
-
-    //cout malo
-  //  std::cout<< "Firulais dice: "<< hablar(firulais) << std::endl;
-  //  std::cout<< "y Charlie dice: "<< hablar(charlie) << std::endl;
-
-
-
-    //cout bueno
-
-    std::cout<< "Firulais dice: "<< firulais->hablar() << std::endl<< std::endl;
-    std::cout<< "Charlie dice: "<< charlie->hablar() << std::endl << std::endl;
-    Animal* maikol= new Animal(); // y el metodo funciona incluso con un metodo de la clase base Animal
-    std::cout<< "y Maikol dice: "<< maikol->hablar() << std::endl << std::endl;
-*/
-
-
-
-
 }
